@@ -1,0 +1,5 @@
+<!-- File: templates/Svmappings/dummy.php -->
+
+<?=
+__('agentid');
+?>

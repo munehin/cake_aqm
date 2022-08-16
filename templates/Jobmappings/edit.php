@@ -1,0 +1,39 @@
+<?php
+/**
+ * @var \App\View\AppView $this
+ * @var \App\Model\Entity\Jobmapping $jobmapping
+ */
+?>
+<div class="row">
+    <aside class="column">
+        <div class="side-nav">
+            <h4 class="heading"><?= __('Actions') ?></h4>
+            <?= $this->Form->postLink(
+                __('Delete'),
+                ['action' => 'delete', $jobmapping->id],
+                ['confirm' => __('Are you sure you want to delete # {0}?', $jobmapping->id), 'class' => 'side-nav-item']
+            ) ?>
+            <?= $this->Html->link(__('List Jobmappings'), ['action' => 'index'], ['class' => 'side-nav-item']) ?>
+        </div>
+    </aside>
+    <div class="column-responsive column-80">
+        <div class="users form content">
+            <?= $this->Form->create($jobmapping) ?>
+            <fieldset>
+                <legend><?= __('Edit Jobmapping') ?></legend>
+                <?php
+                    echo $this->Form->control('job_id');
+                    echo $this->Form->control('extension');
+                    echo $this->Form->control('clientcode');
+                    echo $this->Form->control('subjob');
+                    echo $this->Form->control('areacode');
+                    echo $this->Form->control('areaname');
+                    echo $this->Form->control('centercode');
+                    echo $this->Form->control('centername');
+                ?>
+            </fieldset>
+            <?= $this->Form->button(__('Submit')) ?>
+            <?= $this->Form->end() ?>
+        </div>
+    </div>
+</div>

@@ -1,0 +1,524 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-04-08 16:00+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:57
+msgid "-> Testing :url"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:87
+msgid "Total Requests made: :requests"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:88
+msgid "Total Time elapsed: :duration (seconds)"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:92
+msgid "Requests/Second: :rps req/sec"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:96
+msgid "Average request time: :average-time seconds"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:100
+msgid "Standard deviation of average request time: :std-dev"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:105
+msgid "Longest/shortest request: :longest sec/:shortest sec"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:164
+msgid "Allows you to obtain some rough benchmarking statisticsabout a fully qualified URL."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:170
+msgid "The URL to request."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:175
+msgid "Number of iterations to perform."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:179
+msgid "Maximum total time for all iterations, in seconds.If a single iteration takes more than the timeout, only one request will be made"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Command/BenchmarkCommand.php:185
+msgid "Example Use: `cake benchmark --n 10 --t 100 http://localhost/testsite`. <info>Note:</info> this benchmark does not include browser render times."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Controller/ComposerController.php:59
+msgid "You have to be connected to the internet"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:74
+msgid "No emails found in this request"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:154
+msgid "Email part ''{0}'' not found in email"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Controller/MailPreviewController.php:277
+msgid "Mailer preview {0}::{1} not found"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Controller/ToolbarController.php:52
+msgid "Invalid cache engine name."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/DebugTimer.php:135
+msgid "Core Processing (Derived from $_SERVER[\"REQUEST_TIME\"])"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Model/Table/PanelsTable.php:60
+msgid "Missing request id in {0}."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Panel/PanelRegistry.php:66
+msgid "Unable to find ''{0}'' panel."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/Panel/VariablesPanel.php:69
+msgid "Could not retrieve debug info - {0}. Error: {1} in {2}, line {3}"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/src/View/Helper/SimpleGraphHelper.php:76
+msgid "Starting {0}ms into the request, taking {1}ms"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:6
+msgid "Debug Kit Dashboard"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:8
+msgid "Database"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:10
+msgid "Driver"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:12
+msgid "Requests"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:17
+msgid "Reset database"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/Dashboard/index.php:25
+msgid "Mail Preview"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/email.php:24
+msgid "You are trying to preview an email that does not have any content."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:29
+msgid "How to use this feature?"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:30
+msgid "Testing emails can be very time consuming"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:31
+msgid "Specially when you need to click a bunch of times on an interface to trigger them."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:32
+msgid "Wouldn't it be better to just change the templates and refresh the browser to see the result?"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:33
+msgid "Just the way you work on the web interface!"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:35
+msgid "Example"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:36
+msgid "{0} integrates with CakePHP’s {1} class. Here's an example of such a mailer:"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:50
+msgid "Returning the chain is a good idea"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:53
+msgid "By default template with same name as method name is used."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:61
+msgid "Now you create a {0} class where you can pass some dummy values."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:87
+msgid "Note that the function MUST return the UserMailer object at the end."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:88
+msgid "Since {0} have a fluent interface, you just need to return the result of the chain of calls."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/MailPreview/index.php:89
+msgid "That's it, now refresh this page!"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:22
+msgid "There were no cache operations in this request."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:24
+msgid "Cache Utilities"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:28
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:53
+msgid "Engine"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:41
+msgid "Clear All Data"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:49
+msgid "Cache Usage Overview"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:54
+msgid "get hit"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:55
+msgid "get miss"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:56
+msgid "set"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:57
+msgid "delete"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:73
+msgid "Cache Logs"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:77
+msgid "Log"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:115
+msgid "cache cleared."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/cache_panel.php:117
+msgid "cache could not be cleared."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:28
+msgid "Application Constants"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:34
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:59
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:135
+msgid "Constant"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:35
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:60
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:110
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:136
+msgid "Value"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:49
+msgid "No application environment available."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:53
+msgid "CakePHP Constants"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:74
+msgid "CakePHP environment unavailable."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:78
+msgid "INI Environment"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:99
+msgid "ini environment unavailable."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:103
+msgid "PHP Environment"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:109
+msgid "Environment Variable"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:124
+msgid "PHP environment unavailable."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:129
+msgid "Hidef Environment"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/environment_panel.php:150
+msgid "No Hidef environment available."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/history_panel.php:23
+msgid "No requests logged."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/history_panel.php:24
+#: ./vendor/cakephp/debug_kit/templates/element/history_panel.php:29
+#: ./vendor/cakephp/debug_kit/templates/element/history_panel.php:59
+msgid "Reload"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/history_panel.php:28
+msgid "requests available"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/include_panel.php:30
+msgid "Include Paths"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/include_panel.php:33
+msgid "Included Files"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/log_panel.php:21
+msgid "There were no log entries made this request"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/log_panel.php:24
+msgid "{0} Messages"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/log_panel.php:28
+msgid "Time"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/log_panel.php:29
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:32
+msgid "Message"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/mail_panel.php:2
+msgid "Why not test your emails interactively instead? Go to the {0}"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/mail_panel.php:4
+msgid "Email previews page"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/mail_panel.php:8
+msgid "No emails were sent during this request"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/mail_panel.php:17
+msgid "Subject"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:22
+msgid "{0} not found"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:26
+msgid "Check for Updates"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:27
+msgid "Direct dependencies only"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:32
+msgid "Requirements ({0})"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:36
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:62
+msgid "Name"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:37
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:63
+msgid "Version"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:58
+msgid "Dev Requirements ({0})"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/packages_panel.php:99
+msgid "Loading"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:30
+msgid "Warning"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:31
+msgid "Headers already sent at file {0} and line {1}."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:34
+msgid "Attributes"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:37
+msgid "No attributes data."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:43
+msgid "Post data"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:46
+msgid "No post data."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:55
+msgid "No querystring data."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:65
+msgid "No Cookie data."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/request_panel.php:69
+msgid "Matched Route"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/routes_panel.php:39
+msgid "App"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/routes_panel.php:53
+msgid "Route name"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/routes_panel.php:54
+msgid "URI template"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/routes_panel.php:55
+msgid "Defaults"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:35
+msgid "Generated Models"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:36
+msgid "The following Table objects used {0} instead of a concrete class:"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:58
+msgid "Total Time: {0} ms &mdash; Total Queries: {1} &mdash; Total Rows: {2}"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:71
+msgid "Query"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:72
+msgid "Rows"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:73
+msgid "Took (ms)"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/sql_log_panel.php:91
+msgid "No active database connections"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:23
+msgid "Memory"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:25
+msgid "Peak Memory Use:"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:33
+msgid "Memory Use"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:48
+msgid "Timers"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:50
+msgid "Total Request Time:"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:57
+msgid "Event"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:58
+msgid "Time in ms"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/timer_panel.php:59
+msgid "Timeline"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:28
+msgid "%s levels of nested data shown."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:29
+msgid "You can overwrite this via the config key"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:31
+msgid "Increasing the depth value can lead to an out of memory error."
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:37
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:44
+msgid "Sort variables by name"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/element/variables_panel.php:50
+msgid "Validation errors"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/layout/dashboard.php:6
+msgid "DebugKit Dashboard"
+msgstr ""
+
+#: ./vendor/cakephp/debug_kit/templates/layout/mailer.php:6
+msgid "Mailer Previews"
+msgstr ""
+

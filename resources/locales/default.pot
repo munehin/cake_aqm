@@ -1,0 +1,737 @@
+# LANGUAGE translation of CakePHP Application
+# Copyright YEAR NAME <EMAIL@ADDRESS>
+#
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: PROJECT VERSION\n"
+"POT-Creation-Date: 2022-07-05 15:30+0900\n"
+"PO-Revision-Date: YYYY-mm-DD HH:MM+ZZZZ\n"
+"Last-Translator: NAME <EMAIL@ADDRESS>\n"
+"Language-Team: LANGUAGE <EMAIL@ADDRESS>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=utf-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=INTEGER; plural=EXPRESSION;\n"
+
+#: ./src/Controller/JobmappingsController.php:46
+#: ./src/Controller/JobmappingsController.php:64
+msgid "The jobmapping has been saved."
+msgstr ""
+
+#: ./src/Controller/JobmappingsController.php:50
+#: ./src/Controller/JobmappingsController.php:68
+msgid "The jobmapping could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/JobmappingsController.php:80
+msgid "The jobmapping has been deleted."
+msgstr ""
+
+#: ./src/Controller/JobmappingsController.php:82
+msgid "The jobmapping could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/JobmappingsController.php:139
+msgid "The jobmapping has been imported."
+msgstr ""
+
+#: ./src/Controller/JobsController.php:34
+#: ./src/Controller/JobsController.php:50
+msgid "The job has been saved."
+msgstr ""
+
+#: ./src/Controller/JobsController.php:37
+#: ./src/Controller/JobsController.php:53
+msgid "The job could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/JobsController.php:65
+msgid "The job has beend deleted."
+msgstr ""
+
+#: ./src/Controller/JobsController.php:67
+msgid "The job could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SendlogsController.php:57
+#: ./src/Controller/SendlogsController.php:82
+msgid "The sendlog has been saved."
+msgstr ""
+
+#: ./src/Controller/SendlogsController.php:61
+#: ./src/Controller/SendlogsController.php:86
+msgid "The sendlog could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SendlogsController.php:104
+msgid "The sendlog has been deleted."
+msgstr ""
+
+#: ./src/Controller/SendlogsController.php:106
+msgid "The sendlog could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SummariesController.php:105
+#: ./src/Controller/SummariesController.php:129
+msgid "The summary has been saved."
+msgstr ""
+
+#: ./src/Controller/SummariesController.php:109
+#: ./src/Controller/SummariesController.php:133
+msgid "The summary could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SummariesController.php:150
+msgid "The summary has been deleted."
+msgstr ""
+
+#: ./src/Controller/SummariesController.php:152
+msgid "The summary could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SvmappingsController.php:46
+#: ./src/Controller/SvmappingsController.php:64
+msgid "The svmapping has been saved."
+msgstr ""
+
+#: ./src/Controller/SvmappingsController.php:50
+#: ./src/Controller/SvmappingsController.php:68
+msgid "The svmapping could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SvmappingsController.php:80
+msgid "The svmapping has been deleted."
+msgstr ""
+
+#: ./src/Controller/SvmappingsController.php:82
+msgid "The svmapping could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/SvmappingsController.php:136
+msgid "The svmapping has been imported."
+msgstr ""
+
+#: ./src/Controller/UploadlogsController.php:73
+#: ./src/Controller/UploadlogsController.php:98
+msgid "The uploadlog has been saved."
+msgstr ""
+
+#: ./src/Controller/UploadlogsController.php:77
+#: ./src/Controller/UploadlogsController.php:102
+msgid "The uploadlog could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UploadlogsController.php:120
+msgid "The uploadlog has been deleted."
+msgstr ""
+
+#: ./src/Controller/UploadlogsController.php:122
+msgid "The uploadlog could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:53
+#: ./src/Controller/UsersController.php:78
+msgid "The user has been saved."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:57
+#: ./src/Controller/UsersController.php:82
+msgid "The user could not be saved. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:99
+msgid "The user has been deleted."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:101
+msgid "The user could not be deleted. Please, try again."
+msgstr ""
+
+#: ./src/Controller/UsersController.php:136
+msgid "Invalid username or password."
+msgstr ""
+
+#: ./templates/Jobmappings/add.php:10
+#: ./templates/Jobmappings/edit.php:10
+#: ./templates/Jobmappings/import.php:6
+#: ./templates/Jobmappings/index.php:19
+#: ./templates/Jobs/add.php:6
+#: ./templates/Jobs/edit.php:6
+#: ./templates/Jobs/index.php:19
+#: ./templates/Sendlogs/add.php:11
+#: ./templates/Sendlogs/edit.php:11
+#: ./templates/Sendlogs/view.php:10
+#: ./templates/Summaries/add.php:10
+#: ./templates/Summaries/edit.php:10
+#: ./templates/Summaries/index.php:18
+#: ./templates/Summaries/view.php:10
+#: ./templates/Svmappings/add.php:10
+#: ./templates/Svmappings/edit.php:10
+#: ./templates/Svmappings/import.php:6
+#: ./templates/Svmappings/index.php:16
+#: ./templates/Uploadlogs/add.php:11
+#: ./templates/Uploadlogs/edit.php:11
+#: ./templates/Uploadlogs/index2.php:23
+#: ./templates/Uploadlogs/view.php:10
+#: ./templates/Uploadlogs/view.php:104
+#: ./templates/Users/add.php:10
+#: ./templates/Users/edit.php:10
+#: ./templates/Users/index.php:18
+#: ./templates/Users/view.php:10
+msgid "Actions"
+msgstr ""
+
+#: ./templates/Jobmappings/add.php:11
+#: ./templates/Jobmappings/edit.php:16
+msgid "List Jobmappings"
+msgstr ""
+
+#: ./templates/Jobmappings/add.php:18
+msgid "Add Jobmapping"
+msgstr ""
+
+#: ./templates/Jobmappings/add.php:30
+#: ./templates/Jobmappings/edit.php:35
+#: ./templates/Jobs/add.php:25
+#: ./templates/Jobs/edit.php:30
+#: ./templates/Sendlogs/add.php:32
+#: ./templates/Sendlogs/edit.php:37
+#: ./templates/Summaries/add.php:27
+#: ./templates/Summaries/edit.php:32
+#: ./templates/Svmappings/add.php:27
+#: ./templates/Svmappings/edit.php:32
+#: ./templates/Uploadlogs/add.php:36
+#: ./templates/Uploadlogs/edit.php:41
+#: ./templates/Users/add.php:24
+#: ./templates/Users/edit.php:29
+msgid "Submit"
+msgstr ""
+
+#: ./templates/Jobmappings/edit.php:12
+#: ./templates/Jobmappings/index.php:61
+#: ./templates/Jobs/edit.php:7
+#: ./templates/Jobs/index.php:60
+#: ./templates/Sendlogs/edit.php:13
+#: ./templates/Summaries/edit.php:12
+#: ./templates/Svmappings/edit.php:12
+#: ./templates/Svmappings/index.php:49
+#: ./templates/Uploadlogs/edit.php:13
+#: ./templates/Uploadlogs/index2.php:50
+#: ./templates/Uploadlogs/view.php:123
+#: ./templates/Users/edit.php:12
+#: ./templates/Users/index.php:31
+msgid "Delete"
+msgstr ""
+
+#: ./templates/Jobmappings/edit.php:14
+#: ./templates/Jobmappings/index.php:61
+#: ./templates/Jobs/edit.php:9
+#: ./templates/Jobs/index.php:60
+#: ./templates/Sendlogs/edit.php:15
+#: ./templates/Sendlogs/view.php:12
+#: ./templates/Summaries/edit.php:14
+#: ./templates/Summaries/view.php:12
+#: ./templates/Svmappings/edit.php:14
+#: ./templates/Svmappings/index.php:49
+#: ./templates/Uploadlogs/edit.php:15
+#: ./templates/Uploadlogs/index2.php:50
+#: ./templates/Uploadlogs/view.php:12
+#: ./templates/Uploadlogs/view.php:123
+#: ./templates/Users/edit.php:14
+#: ./templates/Users/index.php:31
+#: ./templates/Users/view.php:12
+msgid "Are you sure you want to delete # {0}?"
+msgstr ""
+
+#: ./templates/Jobmappings/edit.php:23
+msgid "Edit Jobmapping"
+msgstr ""
+
+#: ./templates/Jobmappings/import.php:7
+#: ./templates/Jobs/add.php:7
+#: ./templates/Jobs/edit.php:11
+#: ./templates/Svmappings/import.php:7
+msgid "List Jobs"
+msgstr ""
+
+#: ./templates/Jobmappings/import.php:15
+msgid "Import Jobmappings"
+msgstr ""
+
+#: ./templates/Jobmappings/import.php:21
+#: ./templates/Jobs/index.php:50
+#: ./templates/Jobs/index.php:55
+#: ./templates/Svmappings/import.php:21
+msgid "Import"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:3
+msgid "New Jobmapping"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:4
+#: ./templates/Jobmappings/index2.php:4
+#: ./templates/Jobs/index.php:17
+#: ./templates/Users/menu.php:12
+msgid "Jobmappings"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:60
+#: ./templates/Jobs/index.php:59
+#: ./templates/Svmappings/index.php:48
+#: ./templates/Uploadlogs/view.php:122
+#: ./templates/Users/index.php:30
+msgid "Edit"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:70
+#: ./templates/Jobmappings/index2.php:65
+#: ./templates/Jobs/index.php:69
+#: ./templates/Sendlogs/index.php:45
+#: ./templates/Summaries/index.php:39
+#: ./templates/Summaries/index2.php:58
+#: ./templates/Svmappings/index.php:58
+#: ./templates/Svmappings/index2.php:53
+#: ./templates/Uploadlogs/index.php:55
+#: ./templates/Uploadlogs/index2.php:60
+#: ./templates/Users/index.php:40
+msgid "first"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:71
+#: ./templates/Jobmappings/index2.php:66
+#: ./templates/Jobs/index.php:70
+#: ./templates/Sendlogs/index.php:46
+#: ./templates/Summaries/index.php:40
+#: ./templates/Summaries/index2.php:59
+#: ./templates/Svmappings/index.php:59
+#: ./templates/Svmappings/index2.php:54
+#: ./templates/Uploadlogs/index.php:56
+#: ./templates/Uploadlogs/index2.php:61
+#: ./templates/Users/index.php:41
+msgid "previous"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:73
+#: ./templates/Jobmappings/index2.php:68
+#: ./templates/Jobs/index.php:72
+#: ./templates/Sendlogs/index.php:48
+#: ./templates/Summaries/index.php:42
+#: ./templates/Summaries/index2.php:61
+#: ./templates/Svmappings/index.php:61
+#: ./templates/Svmappings/index2.php:56
+#: ./templates/Uploadlogs/index.php:58
+#: ./templates/Uploadlogs/index2.php:63
+#: ./templates/Users/index.php:43
+msgid "next"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:74
+#: ./templates/Jobmappings/index2.php:69
+#: ./templates/Jobs/index.php:73
+#: ./templates/Sendlogs/index.php:49
+#: ./templates/Summaries/index.php:43
+#: ./templates/Summaries/index2.php:62
+#: ./templates/Svmappings/index.php:62
+#: ./templates/Svmappings/index2.php:57
+#: ./templates/Uploadlogs/index.php:59
+#: ./templates/Uploadlogs/index2.php:64
+#: ./templates/Users/index.php:44
+msgid "last"
+msgstr ""
+
+#: ./templates/Jobmappings/index.php:76
+#: ./templates/Jobmappings/index2.php:71
+#: ./templates/Jobs/index.php:75
+#: ./templates/Sendlogs/index.php:51
+#: ./templates/Summaries/index.php:45
+#: ./templates/Summaries/index2.php:64
+#: ./templates/Svmappings/index.php:64
+#: ./templates/Svmappings/index2.php:59
+#: ./templates/Uploadlogs/index.php:61
+#: ./templates/Uploadlogs/index2.php:66
+#: ./templates/Users/index.php:46
+msgid "Page {{page}} of {{pages}}, showing {{current}} record(s) out of {{count}} total"
+msgstr ""
+
+#: ./templates/Jobmappings/index2.php:3
+#: ./templates/Jobs/index.php:5
+#: ./templates/Svmappings/index2.php:3
+#: ./templates/Users/menu.php:10
+msgid "Jobs"
+msgstr ""
+
+#: ./templates/Jobs/add.php:14
+msgid "Add Job"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:4
+msgid "Name"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:5
+#: ./templates/Uploadlogs/view.php:34
+msgid "Clientcode"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:6
+msgid "Subjob"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:7
+msgid "Sendmin"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:8
+msgid "Sendmax"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:9
+msgid "Wavmin"
+msgstr ""
+
+#: ./templates/Jobs/dummy.php:10
+msgid "Wavmax"
+msgstr ""
+
+#: ./templates/Jobs/edit.php:18
+msgid "Edit Job"
+msgstr ""
+
+#: ./templates/Jobs/index.php:4
+msgid "New Job"
+msgstr ""
+
+#: ./templates/Jobs/index.php:18
+#: ./templates/Svmappings/index.php:4
+#: ./templates/Svmappings/index2.php:4
+#: ./templates/Users/menu.php:13
+msgid "Svmappings"
+msgstr ""
+
+#: ./templates/Jobs/index.php:49
+#: ./templates/Jobs/index.php:54
+#: ./templates/Summaries/index.php:30
+#: ./templates/Uploadlogs/view.php:121
+#: ./templates/Users/index.php:29
+msgid "View"
+msgstr ""
+
+#: ./templates/Jobs/index.php:51
+#: ./templates/Jobs/index.php:56
+#: ./templates/Uploadlogs/index2.php:57
+msgid "Export"
+msgstr ""
+
+#: ./templates/Sendlogs/add.php:12
+#: ./templates/Sendlogs/edit.php:17
+#: ./templates/Sendlogs/view.php:13
+msgid "List Sendlogs"
+msgstr ""
+
+#: ./templates/Sendlogs/add.php:19
+msgid "Add Sendlog"
+msgstr ""
+
+#: ./templates/Sendlogs/edit.php:24
+#: ./templates/Sendlogs/view.php:11
+msgid "Edit Sendlog"
+msgstr ""
+
+#: ./templates/Sendlogs/index.php:8
+#: ./templates/Users/menu.php:15
+msgid "Sendlogs"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:12
+msgid "Delete Sendlog"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:14
+msgid "New Sendlog"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:22
+#: ./templates/Uploadlogs/view.php:22
+#: ./templates/Uploadlogs/view.php:94
+msgid "Ctipath"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:26
+#: ./templates/Uploadlogs/view.php:26
+#: ./templates/Uploadlogs/view.php:95
+msgid "Ctifile"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:30
+#: ./templates/Uploadlogs/view.php:96
+msgid "Wavpath"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:34
+msgid "Uploadlog"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:38
+#: ./templates/Uploadlogs/view.php:101
+msgid "Disposition"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:42
+#: ./templates/Summaries/view.php:22
+#: ./templates/Uploadlogs/view.php:54
+#: ./templates/Uploadlogs/view.php:92
+#: ./templates/Users/view.php:26
+msgid "Id"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:46
+#: ./templates/Uploadlogs/view.php:66
+#: ./templates/Uploadlogs/view.php:97
+msgid "Status"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:50
+#: ./templates/Uploadlogs/view.php:93
+msgid "Changed"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:54
+#: ./templates/Uploadlogs/view.php:99
+msgid "Calldatetime"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:58
+#: ./templates/Uploadlogs/view.php:100
+msgid "Processedondate"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:62
+#: ./templates/Summaries/view.php:46
+#: ./templates/Uploadlogs/view.php:74
+#: ./templates/Uploadlogs/view.php:102
+#: ./templates/Users/view.php:30
+msgid "Created"
+msgstr ""
+
+#: ./templates/Sendlogs/view.php:66
+#: ./templates/Summaries/view.php:50
+#: ./templates/Uploadlogs/view.php:78
+#: ./templates/Uploadlogs/view.php:103
+#: ./templates/Users/view.php:34
+msgid "Modified"
+msgstr ""
+
+#: ./templates/Summaries/add.php:11
+#: ./templates/Summaries/edit.php:16
+#: ./templates/Summaries/view.php:13
+msgid "List Summaries"
+msgstr ""
+
+#: ./templates/Summaries/add.php:18
+msgid "Add Summary"
+msgstr ""
+
+#: ./templates/Summaries/edit.php:23
+#: ./templates/Summaries/view.php:11
+msgid "Edit Summary"
+msgstr ""
+
+#: ./templates/Summaries/index.php:8
+#: ./templates/Summaries/index2.php:8
+#: ./templates/Uploadlogs/index2.php:8
+#: ./templates/Users/menu.php:8
+msgid "Summaries"
+msgstr ""
+
+#: ./templates/Summaries/index2.php:27
+msgid "Search"
+msgstr ""
+
+#: ./templates/Summaries/view.php:12
+msgid "Delete Summary"
+msgstr ""
+
+#: ./templates/Summaries/view.php:14
+msgid "New Summary"
+msgstr ""
+
+#: ./templates/Summaries/view.php:26
+msgid "Total"
+msgstr ""
+
+#: ./templates/Summaries/view.php:30
+msgid "Ok"
+msgstr ""
+
+#: ./templates/Summaries/view.php:34
+msgid "Ng"
+msgstr ""
+
+#: ./templates/Summaries/view.php:38
+#: ./templates/Uploadlogs/view.php:58
+msgid "Wavsize"
+msgstr ""
+
+#: ./templates/Summaries/view.php:42
+#: ./templates/Uploadlogs/view.php:70
+msgid "Uploaded"
+msgstr ""
+
+#: ./templates/Svmappings/add.php:11
+#: ./templates/Svmappings/edit.php:16
+msgid "List Svmappings"
+msgstr ""
+
+#: ./templates/Svmappings/add.php:18
+msgid "Add Svmapping"
+msgstr ""
+
+#: ./templates/Svmappings/dummy.php:4
+msgid "Agentid"
+msgstr ""
+
+#: ./templates/Svmappings/edit.php:23
+msgid "Edit Svmapping"
+msgstr ""
+
+#: ./templates/Svmappings/import.php:15
+msgid "Import Svmappings"
+msgstr ""
+
+#: ./templates/Svmappings/index.php:3
+msgid "New Svmapping"
+msgstr ""
+
+#: ./templates/Uploadlogs/add.php:12
+#: ./templates/Uploadlogs/edit.php:17
+#: ./templates/Uploadlogs/view.php:13
+msgid "List Uploadlogs"
+msgstr ""
+
+#: ./templates/Uploadlogs/add.php:19
+msgid "Add Uploadlog"
+msgstr ""
+
+#: ./templates/Uploadlogs/edit.php:24
+#: ./templates/Uploadlogs/view.php:11
+msgid "Edit Uploadlog"
+msgstr ""
+
+#: ./templates/Uploadlogs/index.php:8
+#: ./templates/Uploadlogs/index2.php:9
+#: ./templates/Users/menu.php:14
+msgid "Uploadlogs"
+msgstr ""
+
+#: ./templates/Uploadlogs/index2.php:49
+msgid "Resend"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:12
+msgid "Delete Uploadlog"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:14
+msgid "New Uploadlog"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:30
+msgid "Wavfile"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:38
+msgid "Extension"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:42
+msgid "Job"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:46
+msgid "Agentname"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:50
+msgid "Agentpbxid"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:62
+msgid "Wavtime"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:82
+msgid "Notsend"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:83
+msgid "Yes"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:83
+msgid "No"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:87
+msgid "Related Sendlogs"
+msgstr ""
+
+#: ./templates/Uploadlogs/view.php:98
+msgid "Uploadlog Id"
+msgstr ""
+
+#: ./templates/Users/add.php:11
+#: ./templates/Users/edit.php:16
+#: ./templates/Users/view.php:13
+msgid "List Users"
+msgstr ""
+
+#: ./templates/Users/add.php:18
+msgid "Add User"
+msgstr ""
+
+#: ./templates/Users/edit.php:23
+#: ./templates/Users/view.php:11
+msgid "Edit User"
+msgstr ""
+
+#: ./templates/Users/index.php:8
+#: ./templates/Users/view.php:14
+msgid "New User"
+msgstr ""
+
+#: ./templates/Users/index.php:9
+msgid "Users"
+msgstr ""
+
+#: ./templates/Users/login.php:4
+#: ./templates/Users/login.php:13
+msgid "Login"
+msgstr ""
+
+#: ./templates/Users/login.php:9
+msgid "Please enter your email and password"
+msgstr ""
+
+#: ./templates/Users/menu.php:5
+#: ./templates/layout/default.php:51
+msgid "Menu"
+msgstr ""
+
+#: ./templates/Users/menu.php:9
+msgid "Accs"
+msgstr ""
+
+#: ./templates/Users/view.php:12
+msgid "Delete User"
+msgstr ""
+
+#: ./templates/Users/view.php:22
+msgid "Email"
+msgstr ""
+
+#: ./templates/layout/error.php:38
+msgid "Back"
+msgstr ""
+
